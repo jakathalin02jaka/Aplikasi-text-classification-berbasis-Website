@@ -1,8 +1,21 @@
 
 ## Simple Sentimen Analysis
 
-Cara Kerja :
-Aplikasi melakukan curl / pengambilan data twit melalui api twitter search / pencarian sesuai dengan keyword / hastag yang anda masukan melalui antar muka aplikasi kemudian hasil twit diklasifikasi merupakan cuitan bersentimen negatif atau positif
+Untuk membuat aplikasi yang melakukan curl / pengambilan data twit melalui API Twitter Search dan melakukan klasifikasi sentimen positif atau negatif, Anda dapat mengikuti langkah-langkah berikut:
+1.	Daftar akun Twitter Developer: Untuk menggunakan API Twitter Search, Anda harus memiliki akun Twitter Developer dan membuat sebuah aplikasi. Setelah aplikasi Anda dibuat, Anda akan diberikan akses token dan consumer key untuk mengakses API Twitter.
+2.	Buat antarmuka aplikasi: Buat sebuah antarmuka aplikasi yang memungkinkan pengguna memasukkan kata kunci atau hashtag yang akan digunakan untuk mencari twit. Anda dapat menggunakan bahasa pemrograman seperti Python, Java, atau JavaScript untuk membuat antarmuka aplikasi tersebut.
+3.	Lakukan pencarian menggunakan API Twitter: Dalam antarmuka aplikasi, gunakan API Twitter Search untuk melakukan pencarian tweet berdasarkan kata kunci atau hashtag yang dimasukkan oleh pengguna. Anda dapat menggunakan bahasa pemrograman seperti Python atau Java untuk melakukan koneksi ke API Twitter dan melakukan pencarian tweet.
+4.	Lakukan klasifikasi sentimen: Setelah Anda mengambil data tweet dari API Twitter, Anda dapat melakukan klasifikasi sentimen positif atau negatif menggunakan teknik klasifikasi teks seperti Naive Bayes atau Support Vector Machine. Anda dapat menggunakan bahasa pemrograman seperti Python untuk melakukan klasifikasi sentimen.
+5.	Tampilkan hasil: Terakhir, tampilkan hasil dari klasifikasi sentimen pada antarmuka aplikasi sehingga pengguna dapat melihat apakah tweet yang ditemukan memiliki sentimen positif atau negatif.
+Beberapa referensi yang dapat membantu Anda untuk membuat aplikasi seperti ini adalah sebagai berikut:
+1.	"Twitter Sentiment Analysis using Python" oleh Shatakshi Singh: Artikel ini menjelaskan bagaimana melakukan klasifikasi sentimen pada tweet menggunakan bahasa pemrograman Python dan teknik klasifikasi teks Naive Bayes.
+Link: https://www.datacamp.com/community/tutorials/simplifying-sentiment-analysis-python
+2.	"Building a Sentiment Analysis App with Twitter API and Flask" oleh Tadej Magajna: Artikel ini menjelaskan bagaimana membuat aplikasi sentimen analisis menggunakan bahasa pemrograman Python, Flask framework, dan Twitter API.
+Link: https://towardsdatascience.com/building-a-sentiment-analysis-app-with-twitter-api-and-flask-7935588ce34d
+3.	"Twitter API: Extracting Tweets with Specific Phrase and Sentiment Analysis" oleh Hulya Karakaya: Artikel ini menjelaskan bagaimana menggunakan Twitter API untuk mengambil tweet berdasarkan kata kunci dan melakukan klasifikasi sentimen menggunakan teknik klasifikasi teks.
+Link: https://towardsdatascience.com/twitter-api-extracting-tweets-with-specific-phrase-and-sentiment-analysis-10b544375317
+
+
 
 pengambilan data :
 ![SS Aplikasi](https://raw.githubusercontent.com/ajikamaludin/SimpleSentimentAnalistics/2c9f2a81aad2d03eabe9182f98fb072add765965/1.png)
